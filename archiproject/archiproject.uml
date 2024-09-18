@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Trolo/OneDrive/Documents/Archi/archiproject</OriginalElement>
+  <nodes>
+    <node x="-892.2019386762886" y="1316.802294874447">xshape.CanvasMouseHandler</node>
+    <node x="418.1423562227449" y="1991.962096192749">xshape.App</node>
+    <node x="436.8672519335699" y="1364.7305390253312">xshape.Xshape</node>
+    <node x="-853.7249778544426" y="1950.5838556307044">xshape.CommandBar</node>
+    <node x="-300.7416286799609" y="2024.280498259053">xshape.command.MoveShapeCommand</node>
+    <node x="-984.344844522135" y="895.2240317280506">xshape.Position</node>
+    <node x="24.915326821039343" y="341.91801400391904">xshape.composite.Composite</node>
+    <node x="-17.033792695994975" y="2024.280498259053">xshape.command.EditCommand</node>
+    <node x="-594.6647895673639" y="33.602277694269276">xshape.composite.Shape</node>
+    <node x="418.1423562227449" y="1570.2046781456002">xshape.AwtApp</node>
+    <node x="342.6217780988945" y="1709.4230010255565">xshape.GUIHelper</node>
+    <node x="-320.26364232220203" y="451.68059492951255">xshape.composite.Group</node>
+    <node x="242.70983119933823" y="825.6632673233104">xshape.composite.ToolbarShape</node>
+    <node x="-837.6177884906709" y="451.6805949295125">xshape.composite.Cercle</node>
+    <node x="-531.1057796545538" y="1367.0272874479558">xshape.Memento</node>
+    <node x="-1151.1561089919437" y="471.96451148282745">xshape.composite.Rectangle</node>
+    <node x="391.300413925232" y="2085.2316437763457">xshape.AwtContext</node>
+    <node x="-239.5865260808738" y="1373.2367934703238">xshape.Toolbarjpanel</node>
+    <node x="-181.84121677624574" y="858.1679501336303">xshape.composite.CanvasShapes</node>
+    <node x="405.1217780988945" y="1802.6925486091527">xshape.EditShapeDialog</node>
+    <node x="-106.84121677624574" y="1792.007304304148">xshape.command.Command</node>
+    <node x="-876.5639955730612" y="1514.3670619049594">xshape.Scene</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="xshape.Scene" target="xshape.CanvasMouseHandler" relationship="TO_ONE">
+      <point x="-35.13794310322737" y="-188.0" />
+      <point x="0.0" y="67.5" />
+    </edge>
+    <edge source="xshape.CanvasMouseHandler" target="xshape.Scene" relationship="TO_ONE">
+      <point x="-150.0000613237114" y="-2.948744470359088E-4" />
+      <point x="-909.702" y="1384.302" />
+      <point x="-909.702" y="1912.0" />
+      <point x="-707.064" y="1912.0" />
+      <point x="-4.426938744472864E-6" y="187.99993809504053" />
+    </edge>
+    <edge source="xshape.composite.Rectangle" target="xshape.Position" relationship="TO_ONE">
+      <point x="126.50010899194376" y="4.88517172527736E-4" />
+      <point x="-869.0" y="635.9649999999999" />
+      <point x="-869.0" y="817.465" />
+      <point x="-867.8869487413074" y="817.465" />
+      <point x="-867.8869487413074" y="895.224" />
+      <point x="-39.811155477864986" y="-80.00003172805054" />
+    </edge>
+    <edge source="xshape.composite.Cercle" target="xshape.Position" relationship="TO_ONE">
+      <point x="-122.63653986753832" y="16.193434921233802" />
+      <point x="-867.8869487413074" y="631.8740298507463" />
+      <point x="-867.8869487413074" y="625.8111492537314" />
+      <point x="-869.0" y="625.8111492537314" />
+      <point x="-869.0" y="817.465" />
+      <point x="-867.8869487413074" y="817.465" />
+      <point x="-867.8869487413074" y="891.8811940298508" />
+      <point x="-38.82052861219381" y="-83.34283769819979" />
+    </edge>
+    <edge source="xshape.Xshape" target="xshape.composite.Shape" relationship="TO_MANY">
+      <point x="12.058121200758194" y="2.158117691087" />
+      <point x="737.6842835820898" y="1398.3886567164182" />
+      <point x="737.6842835820898" y="174.3289552238806" />
+      <point x="-503.259" y="174.3289552238806" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.Memento" target="xshape.composite.CanvasShapes" relationship="TO_ONE">
+      <point x="-2.2034544622329122E-4" y="43.49971255204423" />
+      <point x="-420.606" y="1279.0" />
+      <point x="-148.5865260808738" y="1279.0" />
+      <point x="-111.24530930462805" y="104.00004986636975" />
+    </edge>
+    <edge source="xshape.command.MoveShapeCommand" target="xshape.Memento" relationship="TO_ONE">
+      <point x="-110.5" y="0.0" />
+      <point x="-405.33422388059705" y="2104.2804982590533" />
+      <point x="-405.33422388059705" y="1438.918208955224" />
+      <point x="-503.259" y="1438.918208955224" />
+      <point x="-82.65322034544624" y="-43.5" />
+    </edge>
+    <edge source="xshape.composite.ToolbarShape" target="xshape.Position" relationship="TO_ONE">
+      <point x="-144.99971179635313" y="-82.06899571787142" />
+      <point x="242.7101194029851" y="1124.4732088511696" />
+      <point x="-869.0" y="1124.4732088511696" />
+      <point x="-869.0" y="1026.9498507462686" />
+      <point x="-904.6653731343288" y="1026.9498507462686" />
+      <point x="-38.82052861219381" y="51.7258190182182" />
+    </edge>
+    <edge source="xshape.command.EditCommand" target="xshape.command.Command" relationship="REALIZATION">
+      <point x="-46.28799834878134" y="-50.66649612973265" />
+      <point x="-4.770447761194191" y="2029.1140021293206" />
+      <point x="-4.770447761194191" y="1982.0838556307044" />
+      <point x="-66.42346246018039" y="1982.0838556307044" />
+      <point x="-29.082245683934644" y="55.4996956958521" />
+    </edge>
+    <edge source="xshape.composite.CanvasShapes" target="xshape.composite.Composite" relationship="GENERALIZATION">
+      <point x="144.49969069537195" y="4.986636974990688E-5" />
+      <point x="107.15847391912621" y="929.6632673233104" />
+      <point x="167.44208955223849" y="929.6632673233104" />
+      <point x="16.026762731199142" y="186.3739262945884" />
+    </edge>
+    <edge source="xshape.Xshape" target="xshape.composite.ToolbarShape" relationship="TO_ONE">
+      <point x="-2.5193356987074367E-4" y="-31.49953902533116" />
+      <point x="491.367" y="1279.0" />
+      <point x="387.7101194029851" y="1279.0" />
+      <point x="2.882036468676574E-4" y="104.00000428212854" />
+    </edge>
+    <edge source="xshape.AwtApp" target="xshape.Xshape" relationship="GENERALIZATION">
+      <point x="31.724643777255096" y="-31.5" />
+      <point x="14.99974806643013" y="31.5" />
+    </edge>
+    <edge source="xshape.composite.ToolbarShape" target="xshape.composite.Composite" relationship="GENERALIZATION">
+      <point x="-144.99971179635313" y="4.282128543309227E-6" />
+      <point x="167.44208955223849" y="929.6632716054389" />
+      <point x="16.026762731199142" y="186.3739262945884" />
+    </edge>
+    <edge source="xshape.composite.Cercle" target="xshape.composite.Shape" relationship="REALIZATION">
+      <point x="-2.1150932911950804E-4" y="-163.9995949295125" />
+      <point x="-711.118" y="422.0" />
+      <point x="-711.1177884906709" y="422.0" />
+      <point x="-711.1177884906709" y="392.0" />
+      <point x="-468.16499999999996" y="392.0" />
+      <point x="-2.1043263609499263E-4" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.composite.Rectangle" target="xshape.composite.Shape" relationship="REALIZATION">
+      <point x="1.0899194376179366E-4" y="-163.99951148282747" />
+      <point x="-1024.656" y="392.0" />
+      <point x="-468.16499999999996" y="392.0" />
+      <point x="-2.1043263609499263E-4" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.command.MoveShapeCommand" target="xshape.Scene" relationship="TO_ONE">
+      <point x="14.999628679960892" y="-79.99975199039613" />
+      <point x="-205.24200000000002" y="2024.2807462686571" />
+      <point x="-205.24200000000002" y="1912.0" />
+      <point x="-707.064" y="1912.0" />
+      <point x="-4.426938744472864E-6" y="187.99993809504053" />
+    </edge>
+    <edge source="xshape.command.MoveShapeCommand" target="xshape.command.Command" relationship="REALIZATION">
+      <point x="110.49962867996092" y="2.480096038652846E-4" />
+      <point x="-119.54131081584885" y="2104.280746268657" />
+      <point x="-119.54131081584885" y="1982.0838556307044" />
+      <point x="-66.42346246018039" y="1982.0838556307044" />
+      <point x="-29.082245683934644" y="55.4996956958521" />
+    </edge>
+    <edge source="xshape.Scene" target="xshape.command.Command" relationship="TO_MANY">
+      <point x="169.5" y="145.14024239918854" />
+      <point x="-69.5" y="0.0" />
+    </edge>
+    <edge source="xshape.Memento" target="xshape.composite.ToolbarShape" relationship="TO_ONE">
+      <point x="-2.2034544622329122E-4" y="-43.50028744795577" />
+      <point x="-420.606" y="1279.0" />
+      <point x="387.7101194029851" y="1279.0" />
+      <point x="2.882036468676574E-4" y="104.00000428212854" />
+    </edge>
+    <edge source="xshape.command.MoveShapeCommand" target="xshape.composite.Shape" relationship="TO_ONE">
+      <point x="-99.8613563946663" y="-79.96408034860542" />
+      <point x="-290.1029850746272" y="1674.2131343283581" />
+      <point x="-289.85513432835825" y="1674.2131343283581" />
+      <point x="-289.85513432835825" y="1279.0" />
+      <point x="-503.259" y="1279.0" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.command.EditCommand" target="xshape.composite.Shape" relationship="TO_ONE">
+      <point x="-2.073040050305508E-4" y="-55.50031702525507" />
+      <point x="63.465999999999994" y="1192.0" />
+      <point x="-503.259" y="1192.0" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.Toolbarjpanel" target="xshape.composite.Shape" relationship="TO_ONE">
+      <point x="1.9939887674407828" y="-39.41052481360748" />
+      <point x="-146.592537313433" y="1279.0" />
+      <point x="-503.259" y="1279.0" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.Scene" target="xshape.composite.Shape" relationship="TO_MANY">
+      <point x="-4.426938744472864E-6" y="-188.00006190495947" />
+      <point x="-707.064" y="1488.0" />
+      <point x="-548.606" y="1488.0" />
+      <point x="-548.606" y="1192.0" />
+      <point x="-503.259" y="1192.0" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.composite.CanvasShapes" target="xshape.Position" relationship="TO_ONE">
+      <point x="-144.50030930462805" y="-89.66795013363026" />
+      <point x="-905.656" y="872.5" />
+      <point x="-39.811155477864986" y="-80.00003172805054" />
+    </edge>
+    <edge source="xshape.CommandBar" target="xshape.Scene" relationship="TO_ONE">
+      <point x="-2.214555740920332E-5" y="-31.49985563070436" />
+      <point x="-742.725" y="1912.0" />
+      <point x="-707.064" y="1912.0" />
+      <point x="-4.426938744472864E-6" y="187.99993809504053" />
+    </edge>
+    <edge source="xshape.Toolbarjpanel" target="xshape.composite.ToolbarShape" relationship="TO_ONE">
+      <point x="-4.739191261933229E-4" y="-43.999793470323766" />
+      <point x="-148.587" y="1279.0" />
+      <point x="387.7101194029851" y="1279.0" />
+      <point x="2.882036468676574E-4" y="104.00000428212854" />
+    </edge>
+    <edge source="xshape.composite.Composite" target="xshape.composite.Shape" relationship="TO_MANY">
+      <point x="0.8315388506023282" y="-195.19502892929222" />
+      <point x="152.24686567164167" y="174.3289552238806" />
+      <point x="-503.259" y="174.3289552238806" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.composite.Composite" target="xshape.composite.Shape" relationship="REALIZATION">
+      <point x="-120.730252194174" y="-139.4792080337698" />
+      <point x="30.685074626865344" y="392.0" />
+      <point x="-468.16499999999996" y="392.0" />
+      <point x="-2.1043263609499263E-4" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.Scene" target="xshape.Toolbarjpanel" relationship="TO_ONE">
+      <point x="98.56399557306122" y="187.99993809504053" />
+      <point x="-608.5" y="1731.8901492537311" />
+      <point x="-205.24200000000002" y="1731.8901492537311" />
+      <point x="-56.65547391912622" y="44.000206529676234" />
+    </edge>
+    <edge source="xshape.composite.Group" target="xshape.composite.Shape" relationship="REALIZATION">
+      <point x="6.020277112384065E-5" y="-187.99962091228463" />
+      <point x="-193.7635821194309" y="392.0" />
+      <point x="-468.16499999999996" y="392.0" />
+      <point x="-2.1043263609499263E-4" y="163.99972230573073" />
+    </edge>
+    <edge source="xshape.Scene" target="xshape.composite.CanvasShapes" relationship="TO_ONE">
+      <point x="126.06399557306122" y="-188.00006190495947" />
+      <point x="-581.0" y="1483.0846783897032" />
+      <point x="-548.606" y="1483.0846783897032" />
+      <point x="-548.606" y="1279.0" />
+      <point x="-148.5865260808738" y="1279.0" />
+      <point x="-111.24530930462805" y="104.00004986636975" />
+    </edge>
+    <edge source="xshape.command.MoveShapeCommand" target="xshape.Toolbarjpanel" relationship="TO_ONE">
+      <point x="-15.000371320039108" y="-79.99975199039613" />
+      <point x="-56.65547391912622" y="44.000206529676234" />
+    </edge>
+    <edge source="xshape.composite.Group" target="xshape.composite.Shape" relationship="TO_MANY">
+      <point x="35.38891094903977" y="-168.2005949295126" />
+      <point x="-158.37473137316226" y="270.15641791044766" />
+      <point x="-503.259" y="270.15641791044766" />
+      <point x="-35.094210432636146" y="163.99972230573073" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5922913719943422" showDependencies="true" x="-102.69522388059727" y="1597.1617910447762" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
